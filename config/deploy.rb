@@ -3,7 +3,8 @@ lock '3.4.0'
 
 set :application, 'deploy'
 set :repo_url, 'https://github.com/mezbahalam/deploy_test1'
-
+set :deploy_to, "/home/vagrant/apps/deploy"
+set :use_sudo, false
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
