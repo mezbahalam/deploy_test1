@@ -26,4 +26,6 @@ production:
   encoding: unicode
   pool: 5
   database: deploy_production
+  host: localhost
+  password: mezbah
  
